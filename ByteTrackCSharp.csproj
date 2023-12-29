@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Version>0.0.1</Version>
+    <Title>ByteTrackCSharp</Title>
+    <Authors>penspanic</Authors>
+    <Description>ByteTrack implementation in C#</Description>
+    <Copyright>MIT License</Copyright>
+    <PackageProjectUrl>https://github.com/penspanic/ByteTrack-CSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/penspanic/ByteTrack-CSharp</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>ByteTrack, Object Detection</PackageTags>
+    <PackageReleaseNotes>Preview</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
